@@ -47,7 +47,7 @@ bool SSAOPass::setup(int w, int h, int numSamples) {
     m_ssaoShader.load("shaders/ssao.vert", "shaders/ssao.frag");
 
     // load random normals texture for SSAO
-    m_randomTexture.loadImage("textures/random.png");
+    m_randomTexture.loadImage("textures/4096_normal.jpg");
     
     m_ssaoShader.begin();
     m_ssaoShader.setUniform1i("u_randomJitterTex", 10);

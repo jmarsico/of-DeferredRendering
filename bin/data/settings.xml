@@ -1,0 +1,11 @@
+<group>
+	<rot_speed>0.06</rot_speed>
+	<orbit>0</orbit>
+	<ambient>0, 0, 0, 1</ambient>
+	<diffuse>0.173469, 0.158163, 0.158163, 1</diffuse>
+	<specular>0.826531, 0.831633, 0.826531, 1</specular>
+	<att_constant>0</att_constant>
+	<attLinear>0.15</attLinear>
+	<attExp>0</attExp>
+<group/>
+</group>
